@@ -80,6 +80,7 @@ main .section-title-box h1 {
 
 	border-radius: 8px;
 	background: rgb(13, 19, 33);
+	text-decoration: none;
 }
 
 /* Why Web Development?? */
@@ -148,4 +149,100 @@ iframe {
 	box-sizing: border-box;
 	border: 1px solid rgba(13, 19, 33, 0.2);
 	border-radius: 16px;
+}
+
+/* My Current Target */
+.my-current-target {
+	margin-bottom: 96px;
+}
+
+.next-target-container {
+	display: flex;
+	gap: 8px;
+	justify-content: space-between;
+	margin-top: 48px;
+}
+
+.my-current-target article {
+	padding: 40px;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.my-current-target .html {
+	border-radius: 16px;
+	background: rgba(255, 76, 30, 0.05);
+}
+
+.my-current-target .css {
+	border-radius: 16px;
+	background: rgba(0, 76, 232, 0.05);
+}
+
+.my-current-target .javaScript {
+	border-radius: 16px;
+	background: rgba(255, 223, 0, 0.05);
+}
+
+.my-current-target img {
+	width: 40px;
+}
+
+/* I need Support */
+.i-need-support {
+	margin-bottom: 96px;
+	height: 313px;
+	border-radius: 16px;
+	background-image: url("../assets/handshake.jpg");
+	background-color: rgb(0, 0, 0, 0.5);
+	background-blend-mode: overlay;
+	margin: 0 auto;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.i-need-support article {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.i-need-support h1 {
+	color: #fff !important;
+}
+
+.i-need-support .input-field {
+	width: 548px;
+	height: 57px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10;
+	padding: 19px 20px 19px 20px;
+	margin: 0px 16px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 8px;
+	background: rgb(255, 255, 255);
+}
+
+.i-need-support .input-btn {
+	width: 120px;
+	height: 57px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10;
+	padding: 17px 20px 17px 20px;
+	margin: 0px 16px;
+	border-radius: 8px;
+	background: rgb(255, 255, 255);
 }
