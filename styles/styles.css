@@ -1,15 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* common */
+
 .azeret-mono-font {
 	font-family: "Azeret Mono", monospace;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
 
+body > main {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-title-box {
+	text-align: center;
+	max-width: 852px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main .section-title-box h1 {
+	color: rgb(13, 19, 33);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 37px;
+	text-align: center;
+}
+
+/* banner */
 .banner-bg {
 	background: url("/assets/Hero-bg.png");
 	margin-bottom: 74px;
 	width: 100%;
+}
+
+.banner-content h1 {
+	color: rgb(13, 19, 33);
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 68px;
+	text-align: center;
 }
 
 .banner-content {
@@ -50,18 +82,7 @@
 	background: rgb(13, 19, 33);
 }
 
-body > main {
-	max-width: 1140px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.section-title {
-	text-align: center;
-	max-width: 852px;
-	margin-left: auto;
-	margin-right: auto;
-}
+/* Why Web Development?? */
 
 .why-web {
 	border-radius: 16px;
@@ -109,4 +130,22 @@ body > main {
 		rgb(255, 255, 255),
 		rgba(255, 255, 255, 0) 100%
 	);
+}
+
+/* My Inspiration */
+.my-inspiration {
+	margin-top: 96px;
+	margin-bottom: 96px;
+}
+
+iframe {
+	border-radius: 16px;
+}
+
+.iframe {
+	margin-top: 48px;
+	padding: 32px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	border-radius: 16px;
 }
