@@ -31,7 +31,7 @@ main .section-title-box h1 {
 
 /* banner */
 .banner-bg {
-	background: url("/assets/Hero-bg.png");
+	background: url("../assets/Hero-bg.png");
 	margin-bottom: 74px;
 	width: 100%;
 }
